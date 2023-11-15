@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+ 
+/* 배경이미지 */
+body{
+    background-image: url(../img/christian-wiediger-2D-NFPeTsQw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 그리드영역 */
+#wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+#box{
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+/* 상단로고 */
+#box header .logo{
+    width: 100%;
+    height: 100px;
+}
+#box header .logo img{
+    display: block;
+    width: 100px;
+    height: 85px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+/* 상단메뉴 */
+#box nav ul{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'PyeongChangPeace-Bold';
+}
+#box nav li{
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.4);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+#box nav li a{
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    transition: 0.2s;
+}
+#box nav li:hover{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    transition: 0.2s;
+}
+#box nav li a:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+/* 상단이미지 */
+#box main img{
+    display: block;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    transition: 0.2s;
+}
+#box main img:hover{
+    box-shadow: rgb(255, 255, 255) 0 0 60px;
+    transform: scale(1.12);
+    transition: 0.2s;
+}
+
+/* 설명 */
+#box aside{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+#box aside h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'PyeongChangPeace-Bold';
+}
+#box aside p{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    font-family: 'PyeongChangPeace-Bold';
+}
+/* 푸터 */
+#box footer{
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    color: #ffffff;
+    font-family: 'PyeongChangPeace-Bold';
+}
+#box footer .bottom{
+    width: 150px;
+    height: 100px;
+    transform: translateY(45px);
+    margin: 0 auto;
+}
+#box footer .bottom img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#box footer .bottom p{
+    text-align: center;
+}

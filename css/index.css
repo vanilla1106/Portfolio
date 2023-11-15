@@ -12,10 +12,9 @@
 }
  
 /* 배경이미지 */
-#wrap{
+body{
     background-image: url(../img/christian-wiediger-2D-NFPeTsQw-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 /* 그리드영역 */
